@@ -15,3 +15,16 @@ Local server
 ERC-721 Token Name - Gleisson Cabral
 ERC-721 Token Symbol - GTC
 ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.io/address/0xc896c20158a1680d42BBAbBECF0d001978CCCC5B
+
+## To configure
+__1. truffle-config-js__
+
+Configure the variables:
+const infuraKey = "";
+const mnemonic = "";
+
+__2. app/index.js
+
+Configure the variable:
+const infura = "";
+
