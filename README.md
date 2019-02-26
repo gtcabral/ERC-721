@@ -22,6 +22,7 @@ __1. truffle-config-js__
 Configure the variables:
 
 const infuraKey = "";
+
 const mnemonic = "";
 
 __2. app/index.js__
