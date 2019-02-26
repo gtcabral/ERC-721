@@ -23,7 +23,7 @@ Configure the variables:
 const infuraKey = "";
 const mnemonic = "";
 
-__2. app/index.js
+__2. app/index.js__
 
 Configure the variable:
 const infura = "";
