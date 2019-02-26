@@ -20,11 +20,13 @@ ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.i
 __1. truffle-config-js__
 
 Configure the variables:
+
 const infuraKey = "";
 const mnemonic = "";
 
 __2. app/index.js__
 
 Configure the variable:
+
 const infura = "";
 
