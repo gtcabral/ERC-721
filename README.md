@@ -14,4 +14,4 @@ Local server
 ## Token Deployed in Rinkeby Ethereum Network
 ERC-721 Token Name - Gleisson Cabral
 ERC-721 Token Symbol - GTC
-ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.io/tokens?q=0xc896c20158a1680d42BBAbBECF0d001978CCCC5B
+ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.io/address/0xc896c20158a1680d42BBAbBECF0d001978CCCC5B
