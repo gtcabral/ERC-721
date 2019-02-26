@@ -12,9 +12,9 @@ Local server
 6. openzeppelin-solidity - v2.1.2 - https://github.com/OpenZeppelin/openzeppelin-solidity
 
 ## Token Deployed in Rinkeby Ethereum Network
-ERC-721 Token Name - Gleisson Cabral
-ERC-721 Token Symbol - GTC
-ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.io/address/0xc896c20158a1680d42BBAbBECF0d001978CCCC5B
+1. ERC-721 Token Name - Gleisson Cabral
+2. ERC-721 Token Symbol - GTC
+3. ERC-721 “Token Address” on the Rinkeby Network - https://rinkeby.etherscan.io/address/0xc896c20158a1680d42BBAbBECF0d001978CCCC5B
 
 ## To configure
 __1. truffle-config-js__
