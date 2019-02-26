@@ -20,14 +20,11 @@ Local server
 __1. truffle-config-js__
 
 Configure the variables:
-
-const infuraKey = "";
-
-const mnemonic = "";
+- const infuraKey = "";
+- const mnemonic = "";
 
 __2. app/index.js__
 
 Configure the variable:
-
-const infura = "";
+- const infura = "";
 
