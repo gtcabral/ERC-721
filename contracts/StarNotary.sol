@@ -14,29 +14,34 @@ contract StarNotary is ERC721 {
         name = _name;
         symbol = _symbol;
     }
-
+        
     // Star data
     struct Star {
         string name;
-        string symbol;
     }
+
+    // Implement Task 1 Add a name and symbol properties
+    // name: Is a short name to your token
+    // symbol: Is a short string like 'USD' -> 'American Dollar'
+    //constructor(string memory _name, string memory _symbol)
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
     // mapping the TokenId and price
     mapping(uint256 => uint256) public starsForSale;
+
     
     // Create Star using the Struct
-    /*function createStar(string memory _name, uint256 _tokenId) public { // Passing the name and tokenId as a parameters
+    function createStar(string memory _name, uint256 _tokenId) public { // Passing the name and tokenId as a parameters
         Star memory newStar = Star(_name); // Star is an struct so we are creating a new Star
         tokenIdToStarInfo[_tokenId] = newStar; // Creating in memory the Star -> tokenId mapping
         _mint(msg.sender, _tokenId); // _mint assign the the star with _tokenId to the sender address (ownership)
-    }*/
-    function createStar(Star memory _star, uint256 _tokenId) public { // Passing the name and tokenId as a parameters
+    }
+    /*function createStar(Star memory _star, uint256 _tokenId) public { // Passing the name and tokenId as a parameters
         Star memory newStar = Star(_star.name,_star.symbol); // Star is an struct so we are creating a new Star
         tokenIdToStarInfo[_tokenId] = newStar; // Creating in memory the Star -> tokenId mapping
         _mint(msg.sender, _tokenId); // _mint assign the the star with _tokenId to the sender address (ownership)
-    }
+    }*/
 
     // Putting an Star for sale (Adding the star tokenid into the mapping starsForSale, first verify that the sender is the owner)
     function putStarUpForSale(uint256 _tokenId, uint256 _price) public {

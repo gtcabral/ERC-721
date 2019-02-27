@@ -1,10 +1,15 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const infuraKey = "";
-const mnemonic = "";
+const infuraKey = "a01881b12aec473cbe13a9d699454b3a";
+//
+// const fs = require('fs');
+//const mnemonic = "subway announce step test answer abuse strategy slow relief square sting canoe";
+const mnemonic = "rice slab swallow fit thrive nasty tell cement elder rubber venture rural";
+
 
 module.exports = {
 
   networks: {
+    //ganache
     development: {
       host: "127.0.0.1",     // Localhost (default: none)
       port: 9545,            // Standard Ethereum port (default: none)
@@ -15,6 +20,7 @@ module.exports = {
     rinkeby: {
         provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
         network_id: 4,       // rinkeby's id
+        //gas: 4500000,        // rinkeby has a lower block limit than mainnet
         gas:4500000,
         gasPrice: 10000000000,
         confirmations: 0,       // # of confs to wait between deployments. (default: 0)
